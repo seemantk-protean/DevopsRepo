@@ -1,0 +1,84 @@
+ls :list all the files 
+ls- lsrt :
+ls -l : Long listing 
+ls- la : display the .dot file ( hidden files ) 
+ls -lat : to display in sorted manner .
+
+
+ps : process running in our system .
+kill <psid> : to kill any process with a particular psid .
+
+
+du - disk usages 
+	-h : in human readable format
+	-s : to summarize the size ( to get the size of complete directory )	
+
+touch : to create a new file of any type 
+
+cat : to load the content of any file in the local directory .
+
+echo "adding content" >sample.txt : to add new content in the file 
+
+
+
+
+adding content using the text editor 
+vi <filename>
+
+i - to insert the content in file 
+ESC the 
+:w - writing the file 
+:q - to close the file 
+
+:wq  combined 
+
+
+Networking commands to hit any urls
+wget : To download any file using the url 
+
+curl : to check the working response (return an HTML page )
+
+
+apt install net-tool 
+
+
+
+cp <filename> <copy file> : to make a copy of a file  
+
+to make a copy of current directory 
+cp -r <new directory >   
+
+
+rm : to remove any file or folder/directory 
+
+
+
+
+git init <repo Name>  : this will create a new local repo in system . 
+git status : this will show all status of all the file sin repo .
+git commit -m "message" : to commit the staged files 
+
+git add <file name>: to add the un staged file to staging area 
+git add .  : to add all the avaible file
+
+git show HEAD : to show the last commited thing in the file .
+git diff : show the new add thing in the files.
+
+git restore <FILE NAME): to revert all the changes 
+
+
+git revert <Commit id>
+
+:wq to make the changes
+
+
+
+
+git remote -v : to check the the accessed repo : we have to set the url to orgin
+
+
+
+git branch <new branch name>
+git checkout <new branch name>: to switch to new branch from main branch 
+
+git branch -l : to list all the branches in repo 
